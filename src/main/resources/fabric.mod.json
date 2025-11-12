@@ -12,7 +12,7 @@
 		"sources": "prvt"
 	},
 	"license": "ARR",
-	"icon": "assets/ziggtownutils/icon.png",
+	"icon": "assets/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
