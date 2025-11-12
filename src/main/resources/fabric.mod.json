@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "ziggtown-utils",
+	"id": "ziggtownutils",
 	"version": "${version}",
 	"name": "ziggtown utils",
 	"description": "Ziggtown Utils By Squarcles",
@@ -12,7 +12,7 @@
 		"sources": "prvt"
 	},
 	"license": "ARR",
-	"icon": "assets/ziggtown-utils/icon.png",
+	"icon": "assets/ziggtownutils/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"ziggtown-utils.mixins.json"
+		"ziggtownutils.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.17.3",
