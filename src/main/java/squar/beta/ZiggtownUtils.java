@@ -4,9 +4,10 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import squar.beta.item.ModItems;
 
 public class ZiggtownUtils implements ModInitializer {
-	public static final String MOD_ID = "ziggtown-utils";
+	public static final String MOD_ID = "ziggtownutils";
 
 
 	// testing something hey <3 I love Kana
@@ -17,6 +18,8 @@ public class ZiggtownUtils implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModItems.registerModItems();
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.

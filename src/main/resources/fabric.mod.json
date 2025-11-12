@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "ziggtown-utils",
+	"version": "${version}",
+	"name": "ziggtown utils",
+	"description": "Ziggtown Utils By Squarcles",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "prvt"
+	},
+	"license": "ARR",
+	"icon": "assets/ziggtown-utils/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"squar.beta.ZiggtownUtils"
+		],
+		"fabric-datagen": [
+			"squar.beta.ZiggtownUtilsDataGenerator"
+		],
+		"client": [
+			"squar.beta.ZiggtownUtilsClient"
+		]
+	},
+	"mixins": [
+		"ziggtown-utils.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
